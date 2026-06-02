@@ -4,34 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     
    </head>
-<body style="background-color: beige;">
-    <div class="navbar">
+<body>
+    <!-- navbar -->
+    <header class="navbar">
+        <nav class="nav-links">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#work">work</a>
         <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
-    </div>
-<!-- This is the home section -->
-          <section id="home ">
-            <div style="text-align: center;">
+        </nav>
+    </header>
+<!--  home section -->
+          <section id="home" class="section">
+            <div class="centre">
                 <h1> welcome to my portfolio</h1>
                 <p>My name is Tiffany seriani a developer at Gomycode.</p>
-               <img src="download.webp" alt="photo">
+               <img src="images/download.webp" alt="photo">
             </div>
- <!--This is the about section -->
-       <section id="about">
-    <div style="text-align: center;">
+            </section>
+ <!--about section -->
+       <section id="about" class="section">
+    <div class="centre">
         <h2>About</h2>
         <p>I started coding in march 2026 and it has been a good experience ever since i started.</p>
         <p>Apart from coding I also enjoy baking and running my small cinnnamon rolls business</p>
         <p>I have been into several fields in the past two years such as healthcare and the market industry.</p>
        </div>
-<!-- this is the work section -->
-       <section id="work">
-        <div style="text-align: center;">
+       </section>
+
+<!-- work section -->
+       <section id="work" class="section">
+        <div class="centre">
             <h2> Work</h2>
             <P>I work part time as a home baker.Im the owner of swirled&sweet</p>
             <p>You can check it out <a href="https://www.youtube.com">swirled&sweet</a></p>
@@ -40,44 +48,41 @@
               <source src="https://audiomack.com/avenoir/album/mirage" type="audiomack">
            </audio>
         </p>
-        <p></p>
+        </div>
      </section>
- </div>
- <!-- this is the resume section -->
-  <section id="resume">
-    <div style="text-align: center;">
+ 
+ <!-- resume section -->
+  <section id="resume" class="section">
+    <div class="centre">
     <h2>Resume</h2>
     <p>skills</p>
-    <ul style="list-style-position: inside;">
+    <ul class="list">
         <li>web design</li>
         <li>java script</li>
         <li>teamwork</li>
     </ul>
-    </div>
-    <div style="text-align: center;">
-        <p>Education</p>
+
+        <h3>Education</h3>
         <P>software development student</P>
     </div>
-    <!-- this is the contact section -->
-   <section id="contact">
-    <div style="text-align: center;">
+    </section>
+    <!-- contact section -->
+   <section id="contact" class="section">
+    <div class="centre">
       <h2>Contact me</h2>
-      <form>
-        <label>Full name</label>
-        <input type="text" placeholder="TIFFANY SERIANI">
-        <label>Email</label>
-        <input type="text" placeholder="Tiffanyseriani85@gmail.com">
-        <label>Number</label>
+
+      <form class="contact-form">
+       <input type="text" placeholder="TIFFANY SERIANI">
+        <input type="email" placeholder="tiff55@gmail.com">
         <input type="number" placeholder="0714826044">
+         <button type="submit">Send</button>
       </form>
     </div>
    </section>
    <!-- footer -->
-    <footer>
-       <div style="text-align: center;">
+    <footer class="footer">
+       
        <p>© 2026 My Portfolio Website </p>
-       </div>
-        
     </footer>
 </body>
 </html>
